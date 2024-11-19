@@ -20,6 +20,11 @@
     background-size: 500% 100%;
     padding-bottom: 7px;
     animation: colorimage 2.8s  infinite alternate;
+    padding: 0;
     }
 
     h2{color: white;}
+
+main{min-width: 220px;
+max-width: 800px;
+padding:0px;}
