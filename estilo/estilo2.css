@@ -21,13 +21,16 @@
     padding-bottom: 7px;
     animation: colorimage 2.8s  infinite alternate;
     padding: 0;
-
+min-width: 709px;
+max-width: 1500px;
+min-height: 80px;
+max-height: 130px;
     }
 
     h2{color: white;}
 
-main{min-width: 649px;
-max-width: 800px;
+main{min-width: 709px;
+max-width: 900px;
 padding:0px;
 margin: auto;}
 
@@ -38,36 +41,36 @@ margin: auto;}
 
 /*celulares menores*/
 
-@media (max-width: 768px) {
-    nav ul li {
-        display: block;
-        margin: 10px 0;
-        text-align: center;
-    }
-    .produto {
-        width: 100%;
-        margin: 15px auto;
-    }
-    main {
-        padding: 10px;
-    }
-}
+ @media (max-width: 708px) {
+            nav ul li {
+                display: block;
+                margin: 10px 0;
+                text-align: center;
+            }
+            .produto {
+                width: 100%;
+                margin: 15px auto;
+            }
+            main {
+                padding: 10px;
+            }
+        }
 
-@media (max-width: 480px) {
-    header {
-        font-size: 1.2em;
-        padding: 15px;
-    }
-    .produto {
-        padding: 10px;
-        width: 100%;
-    }
-    .botao-comprar {
-        font-size: 0.9em;
-        padding: 8px 12px;
-    }
-    footer {
-        font-size: 0.9em;
-        padding: 8px 0;
-    }
-}
+        @media (max-width: 480px) {
+            header {
+                font-size: 1.2em;
+                padding: 15px;
+            }
+            .produto {
+                padding: 10px;
+                width: 100%;
+            }
+            .botao-comprar {
+                font-size: 0.9em;
+                padding: 8px 12px;
+            }
+            footer {
+                font-size: 0.9em;
+                padding: 8px 0;
+            }
+        }
