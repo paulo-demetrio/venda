@@ -25,6 +25,7 @@
 
     h2{color: white;}
 
-main{min-width: 220px;
+main{min-width: 649px;
 max-width: 800px;
-padding:0px;}
+padding:0px;
+margin: auto;}
